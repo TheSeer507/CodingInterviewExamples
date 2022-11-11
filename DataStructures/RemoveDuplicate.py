@@ -13,3 +13,22 @@ class Solution:
                 nums[l] = nums[r]
                 l += 1
         return l
+
+#Another Approach O(1) in space
+    class Solution:
+        def removeDuplicates(self, nums: List[int]) -> int:
+
+            for i in reversed(range(1, len(nums))):
+                if nums[i] == nums[i-1]:
+                    nums.pop(i)
+            return len(nums)
+
+#Another approach O(1) - One Liner
+    class Solution:
+        def removeDuplicates(self, nums: List[int]) -> int:
+            nums[:] = (n for i, n in enumerate(nums) if i == 0 or nums[i-1] != n)
+
+#One Final Approach
+class Solution:
+    def removeDuplicates(self, nums: List[int], k=1) -> int:
+        nums[:] = sorted(list(set(nums)))
