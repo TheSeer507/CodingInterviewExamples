@@ -33,7 +33,7 @@ class Solution:
 class Solution:
     def removeDuplicates(self, nums: List[int], k=1) -> int:
         nums[:] = sorted(list(set(nums)))
-=======
+
 #Given an Integer array nums sorted in non-decreasing order. remove the duplicates in-place such that each unique element appears only once
 #Do not allocate extra memory
 #In this problem, the key point to focus on is the input array being sorted.
@@ -49,4 +49,4 @@ class Solution:
                 nums[l] = nums[r]
                 l += 1
         return l
->>>>>>> c5239ef81492d1c1b3dddc29e68842885acc107a
+
