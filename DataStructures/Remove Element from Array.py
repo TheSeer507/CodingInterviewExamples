@@ -19,4 +19,17 @@ class Solution:
         #We return our pointer which holds the number of element in the nums array
         return k
 
-        
+#Anoter Approach, more efficient
+    def removeElement(self, nums, val):
+        i = 0
+        for x in nums:
+            if x != val:
+                nums[i] = x
+                i += 1
+        return i
+
+
+#One Liner Python3 Implementation
+class Solution3:
+    def removeElement3(self, nums: List[int], val:int)-> int:
+        while val in nums:nums.remove(val)
