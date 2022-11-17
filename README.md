@@ -7,6 +7,8 @@ such as Youtube for more indepth explanations and give your support to those who
 Is important to understand the context, as this foundation will make technical interviews much easier.
 
 ## Update Status
+![GitHub last commit](https://img.shields.io/github/last-commit/TheSeer507/CodingInterviewExamples?style=flat-square)
+
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/TheSeer507/CodingInterviewExamples?style=flat-square)
 
 ## Getting Started
