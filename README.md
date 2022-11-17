@@ -6,7 +6,8 @@ such as Youtube for more indepth explanations and give your support to those who
 
 Is important to understand the context, as this foundation will make technical interviews much easier.
 
-
+## Update Status
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/TheSeer507/CodingInterviewExamples?style=flat-square)
 
 ## Getting Started
 
@@ -22,6 +23,12 @@ this repository.
     for the Code of Conduct
   - [Creative Commons](https://creativecommons.org/) - Used to choose
     the license
+   
+## Most Common Languages Used in this Repo
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 ## Contributing
 
