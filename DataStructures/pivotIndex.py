@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
 
@@ -10,4 +11,18 @@ class Solution:
             if leftSum == rightSum:
                 return idx  # Return the pivot index...
             leftSum += ele
+=======
+class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
+
+        # Initialize left and right sum to store the sum of all the numbers strictly to the index's left & right respectively...
+        leftSum, rightSum = 0, sum(nums)
+        # Traverse elements through a loop...
+        for idx, ele in enumerate(nums):
+            rightSum -= ele
+            # if the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strickly to the index right...
+            if leftSum == rightSum:
+                return idx  # Return the pivot index...
+            leftSum += ele
+>>>>>>> f950a5d03e56eb5bdcef8829000dc223c6260333
         return -1  # if there is no index that satisfies the conditions in the problem statement....
