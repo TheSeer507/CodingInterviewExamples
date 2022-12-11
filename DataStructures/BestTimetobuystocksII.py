@@ -16,6 +16,23 @@ class Solution:
         profit = 0
 
         for i in range(1, len(prices)):
-            if prices[i] > prices[i-1]
+            if prices[i] > prices[i-1]:
                 profit += (prices[i] - prices[i-1])
         return profit
+
+#Another Approach using left for #Buy and right for #Sell
+
+class Solution:
+    def maxProfit(self,prices):
+        left = 0 #Buy
+        right = 0 #Sell
+        max_profit = 0
+
+        while right < len(prices):
+            currentProfit = prices[right] - prices[left] #out current profit
+            if prices[left] < prices[right]:
+                max_profit = max(currentProfit, max_profit)
+            else:
+                left = right
+            right += 1
+        return max_profit
